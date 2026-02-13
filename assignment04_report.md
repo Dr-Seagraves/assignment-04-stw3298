@@ -85,7 +85,7 @@ By using only one predictor at a time, we might be omitting:
 > Risk: REITS with more risk will generally have more volatile returns. This volatility could potentially affect their average returns. Generally, REITs that take on more risk will have a higher revenue ceiling (and a lower revenue floor) than those playing it safe.
 
 **Potential bias:** If omitted variables are correlated with both the X variable and ret, our slope estimates may be biased.
-> For example, if larger firms are more likely to pay dividends and larger firms are more likely to have lower returns, our slope estimate might bias us into believing that the x and y variables are correlated with eachother instead of both being correlated with firm size. This is not something that it is possible to entirely prevent (you can't analyze every single factor), it is something we can be aware of and think critically about.
+> For example, if larger firms are more likely to pay dividends and larger firms are more likely to have lower returns, our slope estimate might bias us into believing that dividends and returns are directly correlated with eachother instead of both being correlated with firm size. While this is not something that it is possible to entirely prevent (you can't analyze every single factor), it is something we can be aware of and think critically about.
 
 ---
 
@@ -93,7 +93,7 @@ By using only one predictor at a time, we might be omitting:
 
 **Key Takeaway:**
 [2-3 sentences summarizing which predictor(s) show the strongest relationship with REIT annual returns and whether the evidence is consistent with economic theory]
-> The predictor with the strongest relationship with REIT annual returns was Prime Loan Rate, with a slope of -0.019449, a p-value of 0.0000, and an R² of 0.0164. This evidence is consistent with economic theory in that higher interest rates generally lead to more competitive bonds, which generally leads to capital rotation out of REITs.
+> The predictor with the strongest relationship with REIT annual returns was Prime Loan Rate, with a slope of -0.019449, a p-value of 0.0000, and an R² of 0.0164. This evidence is consistent with economic theory in that higher interest rates generally lead to more competitive bonds, which generally leads to capital rotation out of REITs. Additionally, lower interest rates mean that REIT firms pay less in interest and thus have more capital for investments.
 
 **What we would do next:**
 - Extend to multiple regression (include two or more predictors)
